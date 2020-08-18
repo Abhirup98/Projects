@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: url(../images/customFruitBar.png);
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+    padding-top: 15%;
+}
+h1{
+    font-family: 'Pinyon Script', cursive;
+    color: #fff;
+    font-size: 6em;
+}
+h2{
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Mr Dafoe', cursive;
+}

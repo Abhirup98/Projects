@@ -1,0 +1,88 @@
+body{
+    background-color: #2b2b2b;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+
+.login{
+    background-color: #2980b9;
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.image-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+    margin: 10px;
+}
+
+.ip{
+    background-color: #59a9c2;
+    height: 80px;
+}
+
+.ip:hover{
+    background-color: #2980b9;
+    height: 80px;
+}
+
+.login_control{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.control{
+    color: #000;
+}
+
+.label{
+    color: #ed4f26;
+    font-size: 18px;
+}
+
+.form-control{
+    font-size: 25px;
+    padding: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-custom{
+    background-color: #2c82c9;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+}
+
+@media (max-width: 767px){
+    .login{
+    background-color: #16a085;
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
