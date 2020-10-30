@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="Roam India"
+        android:roundIcon="@drawable/mainicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CreateContact" />
+        <activity android:name=".TourFirst" />
+        <activity android:name=".TourSecond" />
+        <activity android:name=".gridview" />
+        <activity android:name=".ReadContact" />
+        <activity android:name=".CreateMemo" />
+        <activity android:name=".TakePic" />
+        <activity android:name=".ReadMemo" />
+        <activity android:name=".ImageGallary" />
+        <activity android:name=".ImagePreview" />
+
+
+
+
+    </application>
+
+</manifest>
